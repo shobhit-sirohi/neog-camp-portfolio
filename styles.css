@@ -44,7 +44,17 @@ body {
   background-color: var(--primary-color);
   color: white;
   padding: 1rem;
+  border-bottom-left-radius: 2rem;
+}
+.navigation .nav-brand {
+  font-weight: bold;
 }
 .navigation .link {
   color: white;
+}
+.text-align-right {
+  text-align: right;
+}
+.navigation .link-active {
+  font-weight: bold;
 }
