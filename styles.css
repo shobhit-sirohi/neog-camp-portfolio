@@ -1,8 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
 
+body {
+  margin: 0px;
+}
 :root {
   --primary-color: #16a34a;
   --grey: #6b7280;
+  --off-white: #f3f4f6;
+}
+ul {
+  padding-inline-start: 0px;
 }
 
 hr {
@@ -74,4 +81,23 @@ body {
 }
 .heading-bold-color {
   color: var(--primary-color);
+}
+.section {
+  padding: 2rem;
+}
+.section h1 {
+  text-align: center;
+}
+.off-white {
+  background-color: var(--off-white);
+}
+.footer {
+  background-color: var(--primary-color);
+  padding: 2rem;
+  color: white;
+  text-align: center;
+  border-top-right-radius: 2rem;
+}
+.footer .link {
+  color: white;
 }
