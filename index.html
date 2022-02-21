@@ -38,27 +38,27 @@
     </div>
     <hr />
     <h2>@links</h2>
-    <a class="link primary-link" href="/">Primary link</a>
-    <a class="link secondary-link" href="/"
+    <a class="link link-primary" href="/">Primary link</a>
+    <a class="link link-secondary" href="/"
       >Secondary link</a
     >
     <hr />
     <h2>@lists</h2>
     <h3>unordered lists</h3>
-    <ul>
+    <ul class="list-non-bullet">
       <li>Inline Item one</li>
       <li>Inline Item two</li>
       <li>Inline Item three</li>
     </ul>
     <h3>Inline unordered lists</h3>
-    <ul>
-      <li>Inline Item one</li>
-      <li>Inline Item two</li>
-      <li>Inline Item three</li>
+    <ul class="list-non-bullet">
+      <li class="list-inline">Inline Item one</li>
+      <li class="list-inline">Inline Item two</li>
+      <li class="list-inline">Inline Item three</li>
     </ul>
 
     <h3>ordered list</h3>
-    <ol>
+    <ol reversed>
       <li>milk</li>
       <li>egg</li>
       <li>break</li>
@@ -66,17 +66,17 @@
 
     <hr />
     <h2>@nav</h2>
-    <nav>
+    <nav class="navigation container">
       <div>I AM BRAND</div>
-      <ul>
-        <li>
-          <a href="/">Home</a>
+      <ul class="list-non-bullet">
+        <li class="list-inline">
+          <a class="link" href="/">Home</a>
         </li>
-        <li>
-          <a href="/">Projects</a>
+        <li class="list-inline">
+          <a class="link" href="/">Projects</a>
         </li>
-        <li>
-          <a href="/">About</a>
+        <li class="list-inline">
+          <a class="link" href="/">About</a>
         </li>
       </ul>
     </nav>
@@ -84,7 +84,7 @@
 
     <h2>@header</h2>
     <header>
-      <img src="images/hero.png" alt="pic" />
+      <img src="images/hero.svg" alt="pic" />
       <h1>heading inside hero</h1>
     </header>
     <h2>@section</h2>
